@@ -1,5 +1,3 @@
-import { Stream } from 'stream'
-
-declare function html2hscript(stream: Stream, callback: (err: Error, result: string) => void)
+declare function html2hscript(input: string, callback: (err: Error, result: string) => void)
 
 export = html2hscript
